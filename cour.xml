@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE cour SYSTEM "cour.dtd"> -->
+
+<cour xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cour.xsd">
+  <descriptionCour>
+    <intitule>
+      Algorithmique et Programmation 2
+    </intitule>
+    <uniteEnseignement>
+      Informatique INF 123
+    </uniteEnseignement>
+    <chargeTravail>
+      <credit>8</credit>
+      <coeficient>3</coeficient>
+      <volumeHoraire>40</volumeHoraire>
+    </chargeTravail>
+    <semestre>2</semestre>
+    <niveau>Licence 1</niveau>
+    <prerequis>
+      Algorithmique et Programmation 1
+    </prerequis>
+  </descriptionCour>
+  <renseignementEnseignant nombre="1">
+    <enseignant>
+      <prenom>Alioune</prenom>
+      <nom>Ndoye</nom>
+      <adresse>UFR SET près de la scolarité</adresse>
+      <courriel>ndoyealioune@univ-thies.sn</courriel>
+      <heures>8-17</heures>
+    </enseignant>
+  </renseignementEnseignant>
+  <infoLieuHoraire>
+    <salleCour>5</salleCour>
+    <heureDebut>09:00:00</heureDebut>
+    <heureFin>12:00:00</heureFin>
+  </infoLieuHoraire>
+</cour>

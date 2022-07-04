@@ -1,0 +1,50 @@
+<!ELEMENT cour (
+  descriptionCour,
+  renseignementEnseignant,
+  infoLieuHoraire
+)>
+<!ELEMENT descriptionCour (
+  intitule,
+  uniteEnseignement,
+  chargeTravail,
+  semestre,
+  niveau,
+  prerequis
+)>
+<!ELEMENT intitule (#PCDATA)>
+<!ELEMENT uniteEnseignement (#PCDATA)>
+<!ELEMENT chargeTravail (
+  credit,
+  coeficient,
+  volumeHoraire
+)>
+<!ELEMENT credit (#PCDATA)>
+<!ELEMENT coeficient (#PCDATA)>
+<!ELEMENT volumeHoraire (#PCDATA)>
+<!ELEMENT semestre (#PCDATA)>
+<!ELEMENT niveau (#PCDATA)>
+<!ELEMENT prerequis (#PCDATA)>
+<!ELEMENT renseignementEnseignant (
+  enseignant+
+)>
+<!ELEMENT enseignant (
+  prenom,
+  nom,
+  adresse,
+  courriel,
+  heures
+)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT courriel (#PCDATA)>
+<!ELEMENT heures (#PCDATA)>
+<!ATTLIST renseignementEnseignant nombre CDATA #REQUIRED>
+<!ELEMENT infoLieuHoraire (
+  salleCour,
+  heureDebut,
+  heureFin
+)>
+<!ELEMENT salleCour (#PCDATA)>
+<!ELEMENT heureDebut (#PCDATA)>
+<!ELEMENT heureFin (#PCDATA)>
